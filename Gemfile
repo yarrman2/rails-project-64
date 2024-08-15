@@ -52,6 +52,10 @@ gem 'rubocop-rake', '~> 0.6.0'
 
 gem 'sentry-rails'
 gem 'sentry-ruby'
+
+gem 'slim'
+gem 'slim_lint'
+
 gem 'stackprof'
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
