@@ -44,6 +44,12 @@ gem 'bootsnap', require: false
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
+
+gem 'rubocop', '~> 1.21'
+gem 'rubocop-minitest'
+gem 'rubocop-rails'
+gem 'rubocop-rake', '~> 0.6.0'
+
 gem 'sentry-rails'
 gem 'sentry-ruby'
 gem 'stackprof'
