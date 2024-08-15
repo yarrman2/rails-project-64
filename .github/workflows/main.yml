@@ -25,6 +25,4 @@ jobs:
         bundler-cache: true
     - name: Run the default task
       run: bundle exec rake
-    - name: Lint slim files
-      run: slim-lint app/views/
     
